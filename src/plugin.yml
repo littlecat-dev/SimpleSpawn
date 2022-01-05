@@ -1,0 +1,14 @@
+name: SimpleSpawn
+main: me.swat.simplespawn.SimpleSpawnMain
+version: 1.0
+commands:
+  setspawn:
+    description: Sets spawn
+    usage: /setspawn
+    default: op
+    permission: setspawn.permission
+  spawn:
+    description: Go to spawn
+    usage: /spawn
+    default: true
+    permission: spawn.permission
